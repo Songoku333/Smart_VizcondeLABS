@@ -1,0 +1,88 @@
+{
+  "informacion_general": {
+    "propiedad": "SAN VIZCONDE DE LOS ASILOS 4 1C, Madrid",
+    "cups": "ES0022000008065553WS",
+    "periodo_analisis": {
+      "inicio": "2025-01-01",
+      "fin": "2025-10-05",
+      "dias_totales": 278
+    },
+    "superficie_habitable": 55.0
+  },
+  "consumo_real": {
+    "total_periodo": 2394.41,
+    "unidad": "kWh",
+    "promedio_diario": 8.61,
+    "maximo_diario": 126.87,
+    "consumo_anual_proyectado": 3145.2,
+    "consumo_por_m2_anual": 57.2
+  },
+  "consumo_por_periodos": {
+    "periodo_1_punta": {
+      "consumo": 615.90,
+      "porcentaje": 25.7,
+      "descripcion": "Período punta (18h-22h laborables)"
+    },
+    "periodo_2_llano": {
+      "consumo": 575.06,
+      "porcentaje": 24.0,
+      "descripcion": "Período llano (8h-18h y 22h-24h laborables)"
+    },
+    "periodo_3_valle": {
+      "consumo": 997.47,
+      "porcentaje": 41.7,
+      "descripcion": "Período valle (0h-8h laborables y fines de semana)"
+    },
+    "otros_periodos": {
+      "consumo": 205.97,
+      "porcentaje": 8.6,
+      "descripcion": "Otros períodos tarifarios"
+    }
+  },
+  "consumo_mensual": {
+    "enero": 40.74,
+    "febrero": 24.27,
+    "marzo": 393.88,
+    "abril": 45.12,
+    "mayo": 136.14,
+    "junio": 125.60,
+    "julio": 518.67,
+    "agosto": 819.43,
+    "septiembre": 244.78,
+    "octubre": 45.79
+  },
+  "patrones_consumo": {
+    "meses_alto_consumo": ["julio", "agosto", "marzo"],
+    "meses_bajo_consumo": ["febrero", "enero", "abril"],
+    "estacionalidad": {
+      "invierno": 458.89,
+      "primavera": 574.74,
+      "verano": 1388.88,
+      "otoño": 290.57
+    }
+  },
+  "comparativa_teorica": {
+    "consumo_teorico_certificacion_A": {
+      "valor": 43.2,
+      "unidad": "kWh/m² año",
+      "total_anual": 2376.0
+    },
+    "consumo_real_anualizado": {
+      "valor": 57.2,
+      "unidad": "kWh/m² año",
+      "total_anual": 3145.2
+    },
+    "diferencia": {
+      "absoluta": 769.2,
+      "porcentual": 32.4,
+      "descripcion": "El consumo real es 32.4% mayor que el teórico"
+    }
+  },
+  "factores_explicativos": [
+    "Uso real de la vivienda vs. condiciones estándar de certificación",
+    "Variaciones en temperatura exterior vs. condiciones de diseño",
+    "Patrones de ocupación y uso de equipos",
+    "Eficiencia real de los sistemas vs. eficiencia nominal",
+    "Período de adaptación tras las mejoras energéticas"
+  ]
+}

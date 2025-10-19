@@ -1,0 +1,71 @@
+{
+  "informacion_general": {
+    "direccion": "Calle del Vizconde de los Asilos, 4, 28027 Madrid, Madrid, Spain",
+    "tipo_propiedad": "Residencial - Multifamiliar",
+    "valor_capital_usd": 378070,
+    "superficie_m2": 69,
+    "calificacion_epc": "A",
+    "fecha_informe": "20-Abril-2025"
+  },
+  "temperatura_implicita": {
+    "grados_c": 1.9,
+    "banda_itr": "Alineado con 2°C"
+  },
+  "riesgo_fisico": {
+    "escenario": "REMIND | 3°C | Políticas Actuales",
+    "riesgos_principales": [
+      {
+        "tipo": "Calor extremo",
+        "nivel_actual": "91.9 días >30°C por año",
+        "nivel_2050": "107.7 días >30°C por año",
+        "impacto_financiero_2050": "-0.06% del valor capital"
+      },
+      {
+        "tipo": "Escasez de agua",
+        "nivel_actual": "252.2 días con estrés hídrico >60%",
+        "nivel_2050": "261.0 días con estrés hídrico >60%",
+        "impacto_financiero_2050": "No evaluado actualmente"
+      }
+    ],
+    "riesgos_bajos": [
+      "Inundación costera",
+      "Inundación fluvial",
+      "Inundación pluvial",
+      "Ciclones tropicales",
+      "Incendios forestales",
+      "Frío extremo"
+    ],
+    "impacto_total_2050": "-0.06% del valor capital"
+  },
+  "riesgo_transicion": {
+    "escenario": "REMIND | 1.5°C | Net Zero",
+    "intensidad_carbono": {
+      "actual": "17.7 kgCO2e/m²/año",
+      "objetivo_2030": "6.3 kgCO2e/m²/año",
+      "objetivo_2050": "0.0 kgCO2e/m²/año",
+      "reduccion_requerida_2030": "-64.4%",
+      "reduccion_requerida_2050": "-99.9%"
+    },
+    "impacto_financiero": {
+      "2030": "-0.25% del valor capital",
+      "2050": "-1.95% del valor capital"
+    }
+  },
+  "riesgo_total": {
+    "fisico_y_transicion_2050": "-2.01% del valor capital",
+    "fisico_y_transicion_2100": "-2.04% del valor capital"
+  },
+  "resiliencia_climatica": {
+    "fortalezas": [
+      "Calificación energética A",
+      "Baja exposición a inundaciones",
+      "Baja exposición a incendios forestales",
+      "Alineamiento con escenario de 2°C"
+    ],
+    "areas_mejora": [
+      "Reducción adicional de intensidad de carbono para 2030",
+      "Adaptación al aumento de días de calor extremo",
+      "Gestión de la escasez de agua"
+    ]
+  }
+}
